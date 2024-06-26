@@ -23,6 +23,7 @@ export const Zakres = () => {
       <div className={s.margin}>
         {" "}
         <h2 className={s.title}> ZAKRES NASZYCH USŁUG </h2>
+        <p className={s.dzial}>Kliknij w dany dział, aby poznać szczegóły</p>
         <div className={s.flex}>
           <Link onClick={scrollToTop} className={s.link} to="/malowanie">
             <div className={s.box}>

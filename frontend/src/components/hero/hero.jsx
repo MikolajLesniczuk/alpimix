@@ -1,4 +1,5 @@
 import s from "./hero.module.scss";
+
 import dosw from "../../assets/alpfoto/bezp.png";
 import prof from "../../assets/alpfoto/prof.png";
 import bezp from "../../assets/alpfoto/bezpie.png";
@@ -7,11 +8,11 @@ import cert from "../../assets/alpfoto/cert.png";
 export const Hero = () => {
   return (
     <>
-      <div className={s.bg}>
+      <main className={s.bg}>
         <div className={s.container}>
-          <div>
-            <h2 className={s.dlaczego}>Dlaczego my?</h2>
-            <div className={s.desc}>
+          <section>
+            <h1 className={s.dlaczego}>Dlaczego my?</h1>
+            <p className={s.desc}>
               Oferujemy wysokiej jakości usługi alpinistyczne oraz prace na
               wysokościach, znane jako prace alpinistyczne. Nasza firma działa
               głównie na terenie Warszawy i okolic, ale jesteśmy gotowi podjąć
@@ -33,14 +34,17 @@ export const Hero = () => {
               wyzwania, dlatego też zachęcamy do kontaktu z naszą firmą, abyśmy
               mogli zrealizować Państwa potrzeby zgodnie z najwyższymi
               standardami branżowymi.
-            </div>
-          </div>
-          <div className={s.boxflex}>
+            </p>
+          </section>
+          <section className={s.boxflex}>
             <div className={s.center}>
-              <img className={s.img} src={dosw} alt="doswiadczenie"></img>
+              <img
+                className={s.img}
+                src={dosw}
+                alt="Prace alpinistyczne - doświadczenie"
+              ></img>
               <h2>DOŚWIADCZENIE</h2>
               <p className={s.opis}>
-                {" "}
                 Bez wątpienia, żadne zadania na wysokościach nie stanowią dla
                 nas wyzwania. Nasze doświadczenie obejmuje szeroki zakres prac,
                 w tym malowanie/naprawy elewacji, zabezpieczenie przeciwko
@@ -51,8 +55,11 @@ export const Hero = () => {
               </p>
             </div>
             <div className={s.center}>
-              {" "}
-              <img className={s.img} src={prof} alt="doswiadczenie"></img>
+              <img
+                className={s.img}
+                src={prof}
+                alt="Prace alpinistyczne - profesjonalizm"
+              ></img>
               <h2>PROFESJONALIZM</h2>
               <p className={s.opis}>
                 W branży, w której działamy, profesjonalizm jest nieodłącznym
@@ -63,8 +70,11 @@ export const Hero = () => {
               </p>
             </div>
             <div className={s.center}>
-              {" "}
-              <img className={s.img} src={bezp} alt="doswiadczenie"></img>
+              <img
+                className={s.img}
+                src={bezp}
+                alt="Prace alpinistyczne - bezpieczeństwo"
+              ></img>
               <h2>BEZPIECZEŃSTWO</h2>
               <p className={s.opis}>
                 W naszej pracy priorytetem jest bezpieczeństwo. Dysponujemy
@@ -74,8 +84,11 @@ export const Hero = () => {
               </p>
             </div>
             <div className={s.center}>
-              {" "}
-              <img className={s.img} src={cert} alt="doswiadczenie"></img>
+              <img
+                className={s.img}
+                src={cert}
+                alt="Prace alpinistyczne - kompetencje"
+              ></img>
               <h2>KOMPETENCJE</h2>
               <p className={s.opis}>
                 Nasze zaangażowanie w ciągłe doskonalenie sprawia, że stale
@@ -86,9 +99,9 @@ export const Hero = () => {
                 to klucz do zadowolenia klienta.
               </p>
             </div>
-          </div>
+          </section>
         </div>
-      </div>
+      </main>
     </>
   );
 };
