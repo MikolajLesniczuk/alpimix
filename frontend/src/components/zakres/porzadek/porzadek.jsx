@@ -1,9 +1,11 @@
 import s from "./porzadek.module.scss";
 import { Zakres } from "../../features/features";
+import { NavigationNew } from "../../nowemenu/nowemenu";
 
 export const Porzadek = () => {
   return (
     <div>
+      <NavigationNew />
       <div className={s.bg}>
         <div className={s.container}>
           {" "}

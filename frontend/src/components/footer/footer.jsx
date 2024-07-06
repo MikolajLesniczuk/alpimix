@@ -26,7 +26,7 @@ export const Footer = () => {
           <div className={s.phrase}>
             Usługi alpinistyczne to nasza praca ale również pasja.
           </div>
-          <div className={s.phrase2}>Bądźmy w kontakcie</div>
+          {/* <div className={s.phrase2}>Bądźmy w kontakcie</div> */}
           <div className={s.flexik}>
             {/* <div className={s.flexkolumn}>
               <img className={s.adres} src={adres} alt="adres"></img>
@@ -55,6 +55,7 @@ export const Footer = () => {
               </a>
             </div>
           </div>
+
           <div className={s.pos}>
             {isModalOpen ? (
               // <button onClick={openModal}>Wyślij zapytanie</button>

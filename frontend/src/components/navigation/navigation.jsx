@@ -19,7 +19,7 @@ export const Navigation = () => {
   };
   const scrollToTop = () => {
     window.scrollTo({
-      top: 550,
+      top: 250,
       behavior: "smooth",
     });
   };
@@ -55,6 +55,9 @@ export const Navigation = () => {
           </Link>
 
           <div className={s.boxnav}>
+            <NavLink onClick={scrollToTop} className={s.features} to="/my">
+              Strona główna
+            </NavLink>
             <NavLink onClick={scrollToTop} className={s.features} to="/onas">
               O nas
             </NavLink>

@@ -1,21 +1,22 @@
-import { Zakres } from "../features/features";
+// import { Zakres } from "../features/features";
+import { NavigationNew } from "../nowemenu/nowemenu";
 // import { Hero } from "../hero/hero";
 import s from "./onas.module.scss";
 export const Onas = () => {
   return (
     <div>
+      <NavigationNew />
       <div className={s.bg}>
         <div className={s.container}>
           <p className={s.desc}>
-            Alpimix to warszawska firma zajmująca się pracami na wysokości.
-            Wykorzystujemy do tego techniki dostępu linowego, drabiny,
-            podnośniki oraz rusztowania. Nasza kadra to wykwalifikowani
-            pracownicy oraz certyfikowani technicy dostępu linowego, którzy
-            posiadają wszelkie niezbędne uprawnienia oraz szkolenia związane z
-            wykonywanym zawodem. Wszystkie zlecenia realizujemy z wykorzystaniem
-            profesjonalnego i nowoczesnego sprzętu, co umożliwia bezpieczną oraz
-            efektywną pracę. Gwarantujemy najwyższą jakość oraz terminowość w
-            realizacji usług.
+            Alpimix to firma zajmująca się pracami na wysokości. Wykorzystujemy
+            do tego techniki dostępu linowego, drabiny, podnośniki oraz
+            rusztowania. Nasza kadra to wykwalifikowani pracownicy oraz
+            certyfikowani technicy dostępu linowego, którzy posiadają wszelkie
+            niezbędne uprawnienia oraz szkolenia związane z wykonywanym zawodem.
+            Wszystkie zlecenia realizujemy z wykorzystaniem profesjonalnego i
+            nowoczesnego sprzętu, co umożliwia bezpieczną oraz efektywną pracę.
+            Gwarantujemy najwyższą jakość oraz terminowość w realizacji usług.
           </p>
 
           <h3 className={s.jak}>Jak działamy?</h3>
@@ -56,7 +57,7 @@ export const Onas = () => {
           </div>
         </div>
       </div>
-      <Zakres />
+      {/* <Zakres /> */}
     </div>
   );
 };

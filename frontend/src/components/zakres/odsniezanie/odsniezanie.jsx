@@ -1,9 +1,11 @@
 import s from "./odsniezanie.module.scss";
 import { Zakres } from "../../features/features";
+import { NavigationNew } from "../../nowemenu/nowemenu";
 
 export const Odsniezanie = () => {
   return (
     <div>
+      <NavigationNew />
       <div className={s.bg}>
         <div className={s.container}>
           {" "}

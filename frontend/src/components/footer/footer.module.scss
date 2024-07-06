@@ -4,7 +4,7 @@
   margin-top: 80px;
   display: block;
   height: 100%;
-  background-image: url(../../assets/alpfoto/realiza/panorama.jpg);
+  background-image: url(../../assets/alpfoto/realiza/panorama4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,8 +49,9 @@
 }
 .flexik {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  // justify-content: space-between;
   // margin: 0 auto;
 }
 .flexkolumn {
@@ -64,6 +65,7 @@
   font-size: 40px;
   margin-bottom: 10px;
   color: black;
+  font-family: "Permanent Marker", sans-serif;
 }
 .phrase {
   color: black;
@@ -72,6 +74,8 @@
   font-size: 30px;
   font-weight: bold;
   margin: 10px auto 0 auto;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
 }
 
 .phrase2 {
@@ -85,23 +89,25 @@
 .style {
   text-decoration: none;
   color: yellow;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
   font-size: 20px;
+  font-weight: 900;
 }
 .tel {
   display: block;
   width: 80px;
   height: 60px;
-  margin-bottom: 15px;
-  margin-top: 10px;
+
+  margin: 20px auto 15px auto;
 }
 
 .email {
   display: block;
+  margin: 20px auto 15px auto;
 
-  margin-top: 10px;
   width: 70px;
   height: 60px;
-  margin-bottom: 15px;
 }
 
 .posbutton {
@@ -112,6 +118,11 @@
   background-color: yellow;
   outline: none;
   cursor: pointer;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  font-size: 16px;
+  font-weight: 600;
 }
 .pos {
   margin: 0 auto;
@@ -125,15 +136,15 @@
     color: black;
   }
   .phrase {
-    color: yellow;
+    color: rgb(255, 255, 255);
 
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 50px auto;
   }
   .phrase2 {
-    color: yellow;
+    color: beige;
 
     text-align: center;
     font-size: 30px;
@@ -146,7 +157,7 @@
     margin-top: 80px;
     display: block;
     height: 450px;
-    background-image: url(../../assets/alpfoto/realiza/panorama.jpg);
+    background-image: url(../../assets/alpfoto/realiza/panorama4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -202,12 +213,13 @@
     flex-direction: column;
   }
   .posbutton {
-    margin: 0 auto 0 auto;
+    margin: 30px auto 0 auto;
     width: 200px;
     height: 50px;
     border-radius: 20px;
     background-color: yellow;
     outline: none;
     cursor: pointer;
+    color: black;
   }
 }

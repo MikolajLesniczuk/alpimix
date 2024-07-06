@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export const Zakres = () => {
   const scrollToTop = () => {
     window.scrollTo({
-      top: 500,
+      top: 0,
       behavior: "smooth",
     });
   };

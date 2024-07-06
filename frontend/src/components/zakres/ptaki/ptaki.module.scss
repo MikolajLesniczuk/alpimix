@@ -33,6 +33,7 @@
   // padding-bottom: 50px;
   margin: 0 auto 30px auto;
   text-transform: uppercase;
+  font-family: "Permanent Marker", sans-serif;
 }
 
 .title2 {
@@ -48,10 +49,11 @@
   width: 90%;
   margin: 0 auto;
   font-size: 16px;
-  line-height: 1.15;
   font-weight: 500;
   // padding-bottom: 50px;
   color: beige;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
 }
 .li {
   text-align: center;
@@ -84,8 +86,8 @@
 
   .title {
     text-align: center;
-    font-size: 36px;
-    padding-top: 250px;
+    font-size: 30px;
+    padding-top: 100px;
     padding-bottom: 50px;
     margin-top: 50px;
     text-transform: uppercase;
@@ -93,7 +95,7 @@
 
   .title2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     //   padding-top: 50px;
     padding-bottom: 50px;
     //   margin-top: 50px;
@@ -103,7 +105,7 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.15;
     font-weight: 500;
     padding-bottom: 50px;

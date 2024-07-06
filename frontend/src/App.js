@@ -14,18 +14,20 @@ import { Porzadek } from "./components/zakres/porzadek/porzadek";
 import { Onas } from "./components/onas/onas";
 import { Realizacje } from "./components/realizacje/realizacje";
 import { Oferta } from "./components/oferta/oferta";
-import { Navigation } from "./components/navigation/navigation";
+// import { Navigation } from "./components/navigation/navigation";
 import { Kontakt } from "./components/kontakt/kontakt";
 
 export const App = () => {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
 
       <div className={s.container}>
         <Routes>
           <Route path="*" element={<Mainpage />} />
           <Route path="/" element={<Mainpage />} />
+          <Route path="/my" element={<Mainpage />} />
+
           <Route path="/malowanie" element={<Malowanie />} />
           <Route path="/renowacja" element={<Renowacja />} />
           <Route path="/mycie" element={<Mycie />} />

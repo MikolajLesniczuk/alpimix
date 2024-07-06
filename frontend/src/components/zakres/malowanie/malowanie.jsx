@@ -1,9 +1,11 @@
 import s from "./malowanie.module.scss";
 import { Zakres } from "../../features/features";
+import { NavigationNew } from "../../nowemenu/nowemenu";
 
 export const Malowanie = () => {
   return (
     <div>
+      <NavigationNew />
       <div className={s.bg}>
         <div className={s.container}>
           <h1 className={s.title}>Malowanie elewacji</h1>

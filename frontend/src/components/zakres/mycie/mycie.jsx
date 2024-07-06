@@ -1,8 +1,10 @@
 import { Zakres } from "../../features/features";
+import { NavigationNew } from "../../nowemenu/nowemenu";
 import s from "./mycie.module.scss";
 export const Mycie = () => {
   return (
     <div>
+      <NavigationNew />
       <div className={s.bg}>
         <div className={s.container}>
           <h2 className={s.title}>Mycie elewacji</h2>

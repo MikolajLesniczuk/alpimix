@@ -1,8 +1,10 @@
 import { Zakres } from "../../features/features";
+import { NavigationNew } from "../../nowemenu/nowemenu";
 import s from "./montaz.module.scss";
 export const Montaz = () => {
   return (
     <div>
+      <NavigationNew />
       <div className={s.bg}>
         <div className={s.container}>
           <div className={s.title}>

@@ -3,7 +3,7 @@ import s from "./menuMobile.module.scss";
 import logo2 from "../../assets/alpfoto/logo.png";
 
 import close from "../../assets/images/svg/icon-close.svg";
-import twitter from "../../assets/images/svg/icon-twitter.svg";
+// import twitter from "../../assets/images/svg/icon-twitter.svg";
 import facebook from "../../assets/images/svg/icon-facebook.svg";
 import { Link, NavLink } from "react-router-dom";
 import { ModalZap } from "../modal/modal";
@@ -32,6 +32,9 @@ export const MobileMenu = ({ closeModal }) => {
           ></img>
         </div>
         <div>
+          <NavLink onClick={closeModal} className={s.features} to="/my">
+            Strona główna
+          </NavLink>
           <NavLink onClick={closeModal} className={s.features} to="/onas">
             O nas
           </NavLink>
@@ -57,19 +60,19 @@ export const MobileMenu = ({ closeModal }) => {
         </div>
         <div className={s.positionsocial}>
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/profile.php?id=100063572154358"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img className={s.icon} src={facebook} alt="logofacebook" />
           </a>
-          <a
+          {/* <a
             href="https://www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img className={s.icon} src={twitter} alt="logotwitter" />
-          </a>
+          </a> */}
         </div>
       </div>
     </>
